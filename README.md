@@ -2,13 +2,13 @@
 
 ### Install
 ```bash
-yarn add log-tag --dev
+yarn add browser-log-tag --dev
 ```
 
 ### used
 - rollup and vite 
 ```bash
-import Logtag from 'log-tag'
+import Logtag from 'browser-log-tag'
 {
   ...
   plugins: [Logtag({ fname = "Logtag" })]
