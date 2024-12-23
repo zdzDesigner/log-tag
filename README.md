@@ -11,7 +11,7 @@ yarn add log-tag --dev
 import Logtag from 'log-tag'
 {
   ...
-  plugins: [Logtag({fname?:string})]
+  plugins: [Logtag({ fname = "Logtag" })]
   ...
 }
 

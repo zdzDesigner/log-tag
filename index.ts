@@ -1,5 +1,5 @@
-const logtag = ({ fname = "Logtag" }) => {
-  const reg = new RegExp(`${fname}\((?<args>.+)\)(?<merge>\s*&&)?`, "g")
+const logtag = ({ fname = "Logtag" } = { fname: String }) => {
+  const reg = new RegExp(`${fname}\\((?<args>.+)\\)(?<merge>\s*&&)?`, "g")
   return {
     name: "log-tag-plugin",
     transform(code: string) {

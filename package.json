@@ -1,7 +1,29 @@
 {
-  "name": "log-tag",
-  "module": "index.js",
-  "type": "module",
+  "name": "browser-log-tag",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "exports": {
+    "import": "dist/index.esm.js",
+    "default": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "!dist/**/*.map",
+    "README.md"
+  ],
+  "keywords": [
+    "browser",
+    "console",
+    "trace",
+    "prettier"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zdzDesigner/log-tag.git"
+  },
+  "author": "zdzDesigner",
+  "license": "ISC",
   "devDependencies": {
     "@types/bun": "latest"
   },
