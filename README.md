@@ -1,4 +1,5 @@
 ## log-tag
+![snapshot](./log_tag.png)
 
 ### Install
 ```bash
@@ -17,4 +18,5 @@ import Logtag from 'browser-log-tag'
 
 
 ```
+
 
