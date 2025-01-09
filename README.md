@@ -8,8 +8,10 @@ yarn add browser-log-tag --dev
 ```
 
 ### used
-- rollup and vite 
-```bash
+- rollup or vite 
+
+1. build config
+```js
 import Logtag from 'browser-log-tag'
 {
   ...
@@ -20,4 +22,10 @@ import Logtag from 'browser-log-tag'
 
 ```
 
+2. code config
+```js
+import { format } from 'browser-log-tag'
 
+export const Logtag = format([you theme])
+
+```
