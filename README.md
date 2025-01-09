@@ -7,7 +7,7 @@
 yarn add browser-log-tag --dev
 ```
 
-### used
+### Usage
 - rollup or vite 
 
 1. build config
