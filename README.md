@@ -1,4 +1,5 @@
 ## log-tag
+> 无侵入, prod 编译清除console 即可删除日志代码
 ![snapshot](./log_tag.png)
 
 ### Install
