@@ -26,6 +26,23 @@ import Logtag from 'browser-log-tag'
 ```js
 import { format } from 'browser-log-tag'
 
-export const Logtag = format([you theme])
+export const Logtag = format([you tag])
+
+```
+
+
+> demo 
+
+```js
+export const Logtag = format([
+  'aaa',
+  'bbb',
+  'xxx'
+])
+
+
+Logtag('aaa', 'I am tag aaa message!')
+Logtag('bbb', 'I am tag bbb message!')
+Logtag('ccc', 'I am tag ccc message!')
 
 ```
