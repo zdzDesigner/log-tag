@@ -1,11 +1,11 @@
 {
   "name": "browser-log-tag",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "exports": {
-    "import": "dist/index.esm.js",
-    "default": "dist/index.js"
+    "import": "./dist/index.esm.js",
+    "default": "./dist/index.js"
   },
   "files": [
     "dist",

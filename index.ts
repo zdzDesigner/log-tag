@@ -42,7 +42,7 @@ export const format =
     return ""
   }
 
-const logtag = ({ fname = "Logtag" } = { fname: String }) => {
+const logtag = ({ fname = "Logtag" }: { fname?: string } = {}) => {
   const reg = new RegExp(`${fname}\\((?<args>.+)\\)(?<merge>\s*&&)?`, "g")
   return {
     name: "log-tag-plugin",
